@@ -1,5 +1,6 @@
 <?php
-define('_DB_SERVER_', 'sql.mutinytahiti.com');
+//define('_DB_SERVER_', 'sql.mutinytahiti.com');
+define('_DB_SERVER_', array('environment' => getenv("DBSERVER")));
 define('_DB_NAME_', 'psmutiny');
 define('_DB_USER_', 'mutiny_db_admin');
 define('_DB_PASSWD_', 'AmantesIslaUnidos');
