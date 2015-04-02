@@ -1,9 +1,10 @@
 <?php
 //define('_DB_SERVER_', 'sql.mutinytahiti.com');
-define('_DB_SERVER_', array('environment' => getenv("DBSERVER")));
-define('_DB_NAME_', 'psmutiny');
-define('_DB_USER_', 'mutiny_db_admin');
-define('_DB_PASSWD_', 'AmantesIslaUnidos');
+//define('_DB_SERVER_', array('environment' => getenv("DBSERVER")));
+define('_DB_SERVER_', '###SQL_DBSERVER###');
+define('_DB_NAME_', '###SQL_PSDB###');
+define('_DB_USER_', '###SQL_DBADMIN###');
+define('_DB_PASSWD_', '###SQL_DBADMIN_PWD###');
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
