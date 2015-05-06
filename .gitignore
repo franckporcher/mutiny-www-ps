@@ -1,1 +1,5 @@
-update-submodule.sh
+.store.config
+.store.install
+.store.midinstall
+.store.postinstall
+.store.submodules
