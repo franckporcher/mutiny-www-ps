@@ -3,4 +3,4 @@
 .store.midinstall
 .store.postinstall
 .store.submodules
-./cache
+cache
